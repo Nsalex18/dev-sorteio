@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+img {
+
+    margin-bottom: 60px;
+    width: 60vw;
+
+
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+input {
+
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 10vh;
+    width: 60vw;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    opacity: 0.7;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+button {
+    background: rgba(174, 195, 70, 1);
+    box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 500px) {
+
+    body {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+
+    }
+
+    img {
+        width: 483px;
+        height: 274px;
+        margin-top: 100px;
+        left: 728px;
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    input {
+        width: 300px;
+        height: 74px;
+        margin-left: 20px;
+        padding-left: 20px;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 45px;
+        color: #ffffff;
+        padding: 30px;
+    }
+
+    button {
+        width: 242px;
+        height: 72px;
+        top: 858px;
+        left: 849px;
+        border-radius: 10px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+        font-size: 30px;
+
+    }
+
+}
